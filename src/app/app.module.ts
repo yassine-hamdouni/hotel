@@ -6,12 +6,20 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AboutComponent } from './about/about.component';
+import { RoomsComponent } from './rooms/rooms.component';
+import { ContactComponent } from './contact/contact.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    AboutComponent,
+    RoomsComponent,
+    ContactComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
